@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<title>Amdalat JINADU · Data Analyst · Portfolio</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	<link rel="stylesheet" href="css/magnific-popup.css">
+	<link rel="stylesheet" href="css/flaticon.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/custom.css">
+	<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+	<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+
+	<!-- SEO -->
+	<meta name="description" content="Amdalat JINADU - Data Analyst. Dashboards Power BI, pipelines ETL Talend / Snowflake, qualité des données et détection d'anomalies. Disponible immédiatement en CDI.">
+	<meta name="author" content="Amdalat JINADU">
+	<meta property="og:title" content="Amdalat JINADU - Data Analyst">
+	<meta property="og:description" content="Des données fiables, puis des indicateurs lisibles. Dashboards, pipelines ETL et analyses de données.">
+	<meta property="og:image" content="https://adeola1510.github.io/images/realisations/1.performance/1.jpg">
+	<meta property="og:locale" content="fr_FR">
+	<meta property="og:url" content="https://adeola1510.github.io">
+	<meta property="og:type" content="website">
+	<meta name="keywords" content="data analyst, power bi, sql, python, etl, talend, snowflake, qualité des données, dashboard, portfolio data">
+	<link rel="canonical" href="https://adeola1510.github.io">
+
+	<style>
+		/* Ajustements propres à ce portfolio */
+		.hero-dashboard { background-size: cover !important; background-position: center center !important; }
+		.xp-card .xp-date { font-size: 13px; font-weight: 600; color: #6c757d; letter-spacing: .5px; text-transform: uppercase; }
+		.xp-card .xp-org { color: #1f4e79; font-weight: 600; margin-bottom: 8px; }
+		.xp-card .xp-result { color: #c8741a; font-weight: 700; margin-bottom: 8px; }
+		.xp-card .heading { margin-bottom: 4px !important; }
+		.project .text span.binome { display: block; font-size: 12px; opacity: .85; margin-top: 4px; }
+		.project-modal ul { padding-left: 18px; margin-bottom: 0; }
+		.project-modal ul li { margin-bottom: 4px; }
+		.project-figures { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 16px; }
+		.project-figures div { background: #f0f4f8; border-radius: 10px; padding: 10px 14px; flex: 1 1 120px; }
+		.project-figures b { display: block; font-size: 20px; color: #1f4e79; }
+		.project-figures span { font-size: 12px; color: #555; }
+		.form-info { display: none; margin-top: 15px; }
+		/* Accueil : textes en noir pour une lecture nette */
+		.owl-carousel.home-slider .slider-item .slider-text .text h1, .owl-carousel.home-slider .slider-item .slider-text .text p { color: #111 !important; }
+		.owl-carousel.home-slider .slider-item .slider-text .subheading { color: #111 !important; font-weight: 700 !important; }
+		.owl-carousel.home-slider .slider-item .slider-text h1 span { color: #163a5c !important; }
+		@media (max-width: 991.98px) {
+			.owl-carousel.home-slider .slider-item .slider-text .one-third { display: none !important; }
+			.owl-carousel.home-slider .slider-item, .owl-carousel.home-slider .slider-item .overlay { background: #f4f7fb !important; opacity: 1 !important; }
+			.owl-carousel.home-slider .slider-item .slider-text .text, .owl-carousel.home-slider .slider-item .slider-text .text h1, .owl-carousel.home-slider .slider-item .slider-text .text p { color: #1a1a1a !important; text-shadow: none !important; }
+			.owl-carousel.home-slider .slider-item .slider-text .subheading { color: #111 !important; }
+			.owl-carousel.home-slider .slider-item .slider-text h1 span { color: #163a5c !important; }
+			.owl-carousel.home-slider .slider-item .slider-text .btn-outline-primary { color: #1f4e79 !important; border-color: #1f4e79 !important; background: transparent !important; }
+		}
+	</style>
+</head>
+<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+
+	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light site-navbar-target" id="ftco-navbar">
+		<div class="container">
+			<a class="navbar-brand" href="index.html">Amdalat<span>.</span>JINADU</a>
+			<button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Ouvrir le menu">
+				<span class="oi oi-menu"></span> Menu
+			</button>
+			<div class="collapse navbar-collapse" id="ftco-nav">
+				<ul class="navbar-nav nav ml-auto">
+					<li class="nav-item"><a href="#home-section" class="nav-link"><span>Accueil</span></a></li>
+					<li class="nav-item"><a href="#projects-section" class="nav-link"><span>Réalisations</span></a></li>
+					<li class="nav-item"><a href="#about-section" class="nav-link"><span>Mon profil</span></a></li>
+					<li class="nav-item"><a href="#experiences-section" class="nav-link"><span>Expériences</span></a></li>
+					<li class="nav-item"><a href="#skills-section" class="nav-link"><span>Compétences</span></a></li>
+					<li class="nav-item"><a href="#contact-section" class="nav-link"><span>Me contacter</span></a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<!-- ACCUEIL -->
+	<section id="home-section" class="hero">
+		<div class="home-slider owl-carousel">
+
+			<div class="slider-item">
+				<div class="overlay"></div>
+				<div class="container-fluid px-md-0">
+					<div class="row d-flex no-gutters slider-text align-items-end justify-content-end" data-scrollax-parent="true">
+						<!-- PHOTO : remplacez images/photo-hero.jpg par votre photo -->
+						<div class="one-third order-md-last img hero-dashboard" style="background-image:url(images/photo-hero.jpg);">
+							<div class="overlay"></div>
+							<div class="overlay-1"></div>
+						</div>
+						<div class="one-forth d-flex align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
+							<div class="text">
+								<span class="subheading">Data Analyst · Data &amp; BI</span>
+								<h1 class="mb-4 mt-3">Des données fiables, puis des <span>indicateurs lisibles</span></h1>
+								<p>
+									Pipelines ETL, data warehouse et tableaux de bord pour la DSI d'un Conseil Départemental,
+									<br/> détection d'anomalies sur les coûts cloud chez Lyra Network, analyses clients chez Burger King.
+								</p>
+								<p><a href="#projects-section" class="btn btn-primary">Voir mes réalisations</a> <a href="CV_Amdalat_JINADU_Data_Analyst.pdf" class="btn btn-primary btn-outline-primary" target="_blank" rel="noopener">Télécharger mon CV</a></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="slider-item">
+				<div class="overlay"></div>
+				<div class="container-fluid px-md-0">
+					<div class="row d-md-flex no-gutters slider-text align-items-end justify-content-end" data-scrollax-parent="true">
+						<div class="one-third order-md-last img hero-dashboard" style="background-image:url(images/photo-hero-2.jpg);">
+							<div class="overlay"></div>
+							<div class="overlay-1"></div>
+						</div>
+						<div class="one-forth d-flex align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
+							<div class="text">
+								<span class="subheading">Master MIAGE Data &amp; BI · Disponible immédiatement</span>
+								<h1 class="mb-4 mt-3"><span>2 ans</span> d'expérience. Des données qui servent à décider</h1>
+								<p>
+									Chef de projet Data &amp; BI, Data Scientist et Data Analyst en entreprise.
+									<br/> Je recherche un CDI de Data Analyst, partout en France.
+								</p>
+								<p><a href="#contact-section" class="btn btn-primary">Me contacter</a> <a href="CV_Amdalat_JINADU_Data_Analyst.pdf" class="btn btn-primary btn-outline-primary" target="_blank" rel="noopener">Télécharger mon CV</a></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</section>
+
+	<!-- CHIFFRES -->
+	<section class="ftco-counter img bg-light" id="section-counter">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3 justify-content-center counter-wrap ftco-animate">
+					<div class="block-18 d-flex">
+						<div class="icon d-flex justify-content-center align-items-center"><span class="flaticon-calendar"></span></div>
+						<div class="text"><strong class="number" data-number="2">0</strong><span>Années d'expérience</span></div>
+					</div>
+				</div>
+				<div class="col-md-3 justify-content-center counter-wrap ftco-animate">
+					<div class="block-18 d-flex">
+						<div class="icon d-flex justify-content-center align-items-center"><span class="flaticon-suitcases"></span></div>
+						<div class="text"><strong class="number" data-number="4">0</strong><span>Expériences en entreprise</span></div>
+					</div>
+				</div>
+				<div class="col-md-3 justify-content-center counter-wrap ftco-animate">
+					<div class="block-18 d-flex">
+						<div class="icon d-flex justify-content-center align-items-center"><span class="flaticon-computer"></span></div>
+						<div class="text"><strong class="number" data-number="3">0</strong><span>Projets data présentés</span></div>
+					</div>
+				</div>
+				<div class="col-md-3 justify-content-center counter-wrap ftco-animate">
+					<div class="block-18 d-flex">
+						<div class="icon d-flex justify-content-center align-items-center"><span class="flaticon-loyalty"></span></div>
+						<div class="text"><strong class="number" data-number="45">0</strong><span>% de temps gagné sur le bilan carbone</span></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- REALISATIONS -->
+	<section class="ftco-section ftco-project ftco-no-pt ftco-no-pb mt-5" id="projects-section">
+		<div class="container-fluid px-md-4">
+			<div class="row justify-content-center pb-5">
+				<div class="col-md-12 heading-section text-center ftco-animate">
+					<span class="subheading">Mes réalisations</span>
+					<h2 class="mb-4">Quelques projets data sur lesquels j'ai travaillé...</h2>
+					<p>De l'intégration des données jusqu'au tableau de bord. Cliquez sur un projet pour voir le détail et les captures.</p>
+				</div>
+			</div>
+			<div class="row justify-content-center">
+				<div class="col-md-4">
+					<a href="#project-performance" class="project-modal-link">
+						<div class="project img shadow ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/realisations/1.performance/1.jpg);">
+							<div class="overlay"></div>
+							<div class="text text-center p-4">
+								<h3>Performance commerciale</h3>
+								<span>Dashboard Power BI</span>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-4">
+					<a href="#project-etl" class="project-modal-link">
+						<div class="project img shadow ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/realisations/2.etl/2.jpg);">
+							<div class="overlay"></div>
+							<div class="text text-center p-4">
+								<h3>Pipeline Data</h3>
+								<span>Talend &amp; Snowflake</span>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-4">
+					<a href="#project-cartodatasup" class="project-modal-link">
+						<div class="project img shadow ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/realisations/3.cartodatasup/1.jpg);">
+							<div class="overlay"></div>
+							<div class="text text-center p-4">
+								<h3>CartoDataSup</h3>
+								<span>Analyse des données Parcoursup</span>
+							</div>
+						</div>
+					</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Modales projets -->
+	<div id="project-performance" class="mfp-hide project-modal">
+		<div class="row">
+			<div class="col-md-7 project-gallery">
+				<div class="owl-carousel project-carousel">
+					<div class="item"><img src="images/realisations/1.performance/1.jpg" class="img-fluid" alt="Vue d'ensemble : CA, marge, carte et Top / Flop 10 des magasins"></div>
+					<div class="item"><img src="images/realisations/1.performance/2.jpg" class="img-fluid" alt="Ventes par canal et par produit"></div>
+					<div class="item"><img src="images/realisations/1.performance/3.jpg" class="img-fluid" alt="Analyse des promotions et de la marge"></div>
+				</div>
+			</div>
+			<div class="col-md-5 project-info">
+				<h3>Dashboard · Performance commerciale</h3>
+				<div class="project-tags">
+					<span class="project-tag">Power BI</span>
+					<span class="project-tag">DAX</span>
+					<span class="project-tag">Power Query</span>
+					<span class="project-tag">Projet de Master</span>
+				</div>
+				<div class="project-section-title">Contexte</div>
+				<p>À partir du jeu de données Contoso (ventes d'un distributeur multicanal), suivre le chiffre d'affaires et la marge, et repérer les magasins, produits et promotions qui tirent la performance vers le haut ou vers le bas.</p>
+				<div class="project-section-title">Démarche</div>
+				<ul>
+					<li>Préparation des données dans Power Query</li>
+					<li>Mesures DAX : CA, marge, taux de marge, taux de remise, écarts au réseau</li>
+					<li>Trois vues : vue d'ensemble, performance des magasins, canaux de vente</li>
+					<li>Top 10 / Flop 10 par magasin et par produit, carte des ventes, analyse des promotions</li>
+				</ul>
+				<div class="project-figures">
+					<div><b>1,93 Md€</b><span>de CA analysé</span></div>
+					<div><b>56,5 %</b><span>de taux de marge</span></div>
+					<div><b>4</b><span>canaux comparés</span></div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="project-etl" class="mfp-hide project-modal">
+		<div class="row">
+			<div class="col-md-7 project-gallery">
+				<div class="owl-carousel project-carousel">
+					<div class="item"><img src="images/realisations/2.etl/2.jpg" class="img-fluid" alt="Suivi global des dépenses"></div>
+					<div class="item"><img src="images/realisations/2.etl/1.jpg" class="img-fluid" alt="Page d'accueil du tableau de bord des dépenses"></div>
+					<div class="item"><img src="images/realisations/2.etl/3.jpg" class="img-fluid" alt="Détail des dépenses"></div>
+				</div>
+			</div>
+			<div class="col-md-5 project-info">
+				<h3>Pipeline ETL · Excel vers Data Warehouse</h3>
+				<div class="project-tags">
+					<span class="project-tag">Talend</span>
+					<span class="project-tag">Snowflake</span>
+					<span class="project-tag">SQL</span>
+					<span class="project-tag">Power BI</span>
+					<span class="project-tag">Projet de Master</span>
+				</div>
+				<div class="project-section-title">Contexte</div>
+				<p>Des dépenses suivies dans un fichier Excel sur Google Drive, difficile à exploiter dans le temps. Objectif : automatiser l'alimentation d'un entrepôt de données et en tirer un tableau de bord de suivi.</p>
+				<div class="project-section-title">Démarche</div>
+				<ul>
+					<li>Architecture ODS / DWH et modélisation dimensionnelle (dimensions et table de faits)</li>
+					<li>Jobs Talend d'ingestion, de transformation et d'alimentation</li>
+					<li>Jobs Master pour orchestrer les traitements, contextes pour les paramètres d'exécution et de connexion</li>
+					<li>Récupération automatique depuis Google Drive et chargement dans Snowflake</li>
+					<li>Alimentation des dimensions et de la table de faits en SQL, restitution dans Power BI</li>
+				</ul>
+				<div class="project-figures">
+					<div><b>357</b><span>dépenses intégrées</span></div>
+					<div><b>73 %</b><span>en dépenses fixes</span></div>
+					<div><b>3</b><span>pages de restitution</span></div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="project-cartodatasup" class="mfp-hide project-modal">
+		<div class="row">
+			<div class="col-md-7 project-gallery">
+				<div class="owl-carousel project-carousel">
+					<div class="item"><img src="images/realisations/3.cartodatasup/1.jpg" class="img-fluid" alt="Taux d'admission par filière et par secteur"></div>
+					<div class="item"><img src="images/realisations/3.cartodatasup/2.jpg" class="img-fluid" alt="Répartition et sélectivité des formations par secteur"></div>
+					<div class="item"><img src="images/realisations/3.cartodatasup/3.jpg" class="img-fluid" alt="Application CartoDataSup : capacité d'accueil et liste des indicateurs"></div>
+					<div class="item"><img src="images/realisations/3.cartodatasup/4.jpg" class="img-fluid" alt="Application CartoDataSup : import de données CSV"></div>
+				</div>
+			</div>
+			<div class="col-md-5 project-info">
+				<h3>CartoDataSup · Analyse des données Parcoursup</h3>
+				<div class="project-tags">
+					<span class="project-tag">Power BI</span>
+					<span class="project-tag">PostgreSQL</span>
+					<span class="project-tag">Django</span>
+					<span class="project-tag">React.js</span>
+					<span class="project-tag">Chart.js</span>
+					<span class="project-tag">Pour Kaléinno</span>
+				</div>
+				<div class="project-section-title">Contexte</div>
+				<p>Rendre lisibles les données open data Parcoursup pour des décideurs : où se trouvent les formations, lesquelles sont sélectives, et comment l'accès varie selon le secteur et le territoire.</p>
+				<div class="project-section-title">Démarche</div>
+				<ul>
+					<li>Structuration des données Parcoursup dans PostgreSQL</li>
+					<li>Indicateurs : taux d'admission, taux de remplissage, ratio capacité / candidats, admis par type de bac, public / privé, répartition géographique</li>
+					<li>Prototypage des visualisations dans Power BI</li>
+					<li>Application web avec filtres (région, académie, département, secteur, sélectivité) et import de fichiers CSV</li>
+				</ul>
+				<div class="project-figures">
+					<div><b>13 869</b><span>formations analysées</span></div>
+					<div><b>78,7 %</b><span>dans le secteur public</span></div>
+					<div><b>≈ 54 %</b><span>d'admission dans le public</span></div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- PROFIL -->
+	<section class="ftco-about ftco-section" id="about-section">
+		<div class="container">
+			<div class="row d-flex no-gutters">
+				<div class="col-md-12">
+					<div class="py-md-5">
+						<div class="row justify-content-start pb-3">
+							<div class="col-md-12 heading-section ftco-animate">
+								<span class="subheading">Mon parcours en bref</span>
+								<h2 class="mb-4" style="font-size: 34px; text-transform: none;">Amdalat Jinadu, Data Analyst</h2>
+								<p>
+									Diplômée d'un Master MIAGE, parcours Data &amp; Business Intelligence, à l'Université de Rennes. J'ai 2 ans d'expérience en Data &amp; BI : pipelines Talend et data warehouse à la DSI du Conseil Départemental du Finistère, détection d'anomalies sur les coûts cloud chez Lyra Network, analyses clients chez Burger King et tableaux de bord Power BI chez Kaanari. J'aime les données fiables et les indicateurs que les équipes utilisent vraiment.
+								</p>
+								<ul class="about-info mt-4 px-md-0 px-2">
+									<li class="d-flex"><span>Spécialisation :</span> <span>Data Analyse &amp; BI</span></li>
+									<li class="d-flex"><span>Expertise :</span> <span>SQL · Python · Power BI · Talend · Snowflake</span></li>
+									<li class="d-flex"><span>Approche :</span> <span>Qualité des données + compréhension métier</span></li>
+									<li class="d-flex"><span>Objectif :</span> <span>CDI Data Analyst</span></li>
+									<li class="d-flex"><span>Email :</span> <span>jinaduamdalat@gmail.com</span></li>
+									<li class="d-flex"><span>Disponibilité :</span> <span>Immédiate · Toute la France</span></li>
+								</ul>
+							</div>
+							<div class="col-md-12">
+								<div class="my-interest d-lg-flex w-100">
+									<div class="interest-wrap align-items-center">
+										<div class="icon d-flex align-items-center justify-content-center"><span class="flaticon-zoom"></span></div>
+										<div class="text">Analyse de données</div>
+									</div>
+									<div class="interest-wrap align-items-center">
+										<div class="icon d-flex align-items-center justify-content-center"><span class="flaticon-web-programming"></span></div>
+										<div class="text">SQL &amp; Python</div>
+									</div>
+									<div class="interest-wrap align-items-center">
+										<div class="icon d-flex align-items-center justify-content-center"><span class="flaticon-computer"></span></div>
+										<div class="text">Business Intelligence</div>
+									</div>
+									<div class="interest-wrap align-items-center">
+										<div class="icon d-flex align-items-center justify-content-center"><span class="flaticon-3d-design"></span></div>
+										<div class="text">Data Engineering</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- EXPERIENCES -->
+	<section class="ftco-section bg-light" id="experiences-section">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-md-12 heading-section text-center ftco-animate mb-5">
+					<span class="subheading">Expériences professionnelles</span>
+					<h2 class="mb-4">Ce que j'ai apporté en entreprise</h2>
+					<p>Les données de ces missions sont confidentielles : je présente la démarche et les résultats.</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6 col-lg-3 d-flex">
+					<div class="media block-6 services d-block bg-white rounded-lg shadow ftco-animate xp-card w-100">
+						<div class="icon d-flex align-items-center justify-content-center"><span class="flaticon-computer"></span></div>
+						<div class="media-body">
+							<div class="xp-date">09/2025 – 09/2026 · 1 an</div>
+							<h3 class="heading">Chef de projet Data &amp; BI</h3>
+							<div class="xp-org">Conseil Départemental du Finistère (DSI)</div>
+							<div class="xp-result">‑45 % de temps sur le bilan carbone</div>
+							<p>Pipelines Talend, data warehouse PostgreSQL, indicateurs SQL et tableaux de bord BusinessObjects.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-3 d-flex">
+					<div class="media block-6 services d-block bg-white rounded-lg shadow ftco-animate xp-card w-100">
+						<div class="icon d-flex align-items-center justify-content-center"><span class="flaticon-zoom"></span></div>
+						<div class="media-body">
+							<div class="xp-date">05/2025 – 08/2025 · 4 mois</div>
+							<h3 class="heading">Data Scientist</h3>
+							<div class="xp-org">Lyra Network</div>
+							<div class="xp-result">≈ 30 ressources cloud surveillées</div>
+							<p>Détection d'anomalies FinOps en Python (Isolation Forest), déployée sur AWS Lambda.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-3 d-flex">
+					<div class="media block-6 services d-block bg-white rounded-lg shadow ftco-animate xp-card w-100">
+						<div class="icon d-flex align-items-center justify-content-center"><span class="flaticon-branding"></span></div>
+						<div class="media-body">
+							<div class="xp-date">07/2024 – 09/2024 · 3 mois</div>
+							<h3 class="heading">Data Analyst</h3>
+							<div class="xp-org">Burger King</div>
+							<div class="xp-result">‑15 % d'abandons de commande</div>
+							<p>Analyse du programme de fidélité et des comportements d'achat en Python et SQL.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-3 d-flex">
+					<div class="media block-6 services d-block bg-white rounded-lg shadow ftco-animate xp-card w-100">
+						<div class="icon d-flex align-items-center justify-content-center"><span class="flaticon-app-development"></span></div>
+						<div class="media-body">
+							<div class="xp-date">05/2024 – 07/2024 · 3 mois</div>
+							<h3 class="heading">Data Analyst</h3>
+							<div class="xp-org">Kaanari</div>
+							<div class="xp-result">‑30 % de temps sur les reportings</div>
+							<p>Recueil des besoins métiers et tableaux de bord Power BI (DAX).</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- COMPETENCES -->
+	<section class="ftco-section" id="skills-section">
+		<div class="container">
+			<div class="row justify-content-center pb-5">
+				<div class="col-md-12 heading-section text-center ftco-animate">
+					<span class="subheading">Stack technique</span>
+					<h2 class="mb-4">Ce que je maîtrise</h2>
+					<p>Des outils utilisés en entreprise et en projet.</p>
+				</div>
+			</div>
+			<div class="row progress-circle mb-5">
+				<div class="col-lg-4 mb-4">
+					<div class="bg-white rounded-lg shadow p-4">
+						<h2 class="h5 font-weight-bold text-center mb-4">SQL</h2>
+						<div class="progress mx-auto" data-value='75'>
+							<span class="progress-left"><span class="progress-bar border-primary"></span></span>
+							<span class="progress-right"><span class="progress-bar border-primary"></span></span>
+							<div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+								<div class="h2 font-weight-bold">75<sup class="small">%</sup></div>
+							</div>
+						</div>
+						<div class="row text-center mt-4">
+							<div class="col-6 border-right"><div class="h4 font-weight-bold mb-0">Requêtes</div><span class="small text-gray">complexes</span></div>
+							<div class="col-6"><div class="h4 font-weight-bold mb-0">Jointures</div><span class="small text-gray">& agrégations</span></div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 mb-4">
+					<div class="bg-white rounded-lg shadow p-4">
+						<h2 class="h5 font-weight-bold text-center mb-4">Python</h2>
+						<div class="progress mx-auto" data-value='70'>
+							<span class="progress-left"><span class="progress-bar border-primary"></span></span>
+							<span class="progress-right"><span class="progress-bar border-primary"></span></span>
+							<div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+								<div class="h2 font-weight-bold">70<sup class="small">%</sup></div>
+							</div>
+						</div>
+						<div class="row text-center mt-4">
+							<div class="col-6 border-right"><div class="h4 font-weight-bold mb-0">Pandas</div><span class="small text-gray">& NumPy</span></div>
+							<div class="col-6"><div class="h4 font-weight-bold mb-0">Scikit-learn</div><span class="small text-gray">machine learning</span></div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 mb-4">
+					<div class="bg-white rounded-lg shadow p-4">
+						<h2 class="h5 font-weight-bold text-center mb-4">Power BI</h2>
+						<div class="progress mx-auto" data-value='70'>
+							<span class="progress-left"><span class="progress-bar border-primary"></span></span>
+							<span class="progress-right"><span class="progress-bar border-primary"></span></span>
+							<div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+								<div class="h2 font-weight-bold">70<sup class="small">%</sup></div>
+							</div>
+						</div>
+						<div class="row text-center mt-4">
+							<div class="col-6 border-right"><div class="h4 font-weight-bold mb-0">DAX</div><span class="small text-gray">mesures</span></div>
+							<div class="col-6"><div class="h4 font-weight-bold mb-0">Dashboards</div><span class="small text-gray">interactifs</span></div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 mb-4">
+					<div class="bg-white rounded-lg shadow p-4">
+						<h2 class="h5 font-weight-bold text-center mb-4">ETL</h2>
+						<div class="progress mx-auto" data-value='80'>
+							<span class="progress-left"><span class="progress-bar border-primary"></span></span>
+							<span class="progress-right"><span class="progress-bar border-primary"></span></span>
+							<div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+								<div class="h2 font-weight-bold">80<sup class="small">%</sup></div>
+							</div>
+						</div>
+						<div class="row text-center mt-4">
+							<div class="col-6 border-right"><div class="h4 font-weight-bold mb-0">Talend</div><span class="small text-gray">jobs & orchestration</span></div>
+							<div class="col-6"><div class="h4 font-weight-bold mb-0">ODS / DWH</div><span class="small text-gray">modélisation</span></div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 mb-4">
+					<div class="bg-white rounded-lg shadow p-4">
+						<h2 class="h5 font-weight-bold text-center mb-4">Cloud AWS</h2>
+						<div class="progress mx-auto" data-value='80'>
+							<span class="progress-left"><span class="progress-bar border-primary"></span></span>
+							<span class="progress-right"><span class="progress-bar border-primary"></span></span>
+							<div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+								<div class="h2 font-weight-bold">80<sup class="small">%</sup></div>
+							</div>
+						</div>
+						<div class="row text-center mt-4">
+							<div class="col-6 border-right"><div class="h4 font-weight-bold mb-0">Athena</div><span class="small text-gray">& S3</span></div>
+							<div class="col-6"><div class="h4 font-weight-bold mb-0">Lambda</div><span class="small text-gray">automatisation</span></div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 mb-4">
+					<div class="bg-white rounded-lg shadow p-4">
+						<h2 class="h5 font-weight-bold text-center mb-4">Snowflake</h2>
+						<div class="progress mx-auto" data-value='60'>
+							<span class="progress-left"><span class="progress-bar border-primary"></span></span>
+							<span class="progress-right"><span class="progress-bar border-primary"></span></span>
+							<div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+								<div class="h2 font-weight-bold">60<sup class="small">%</sup></div>
+							</div>
+						</div>
+						<div class="row text-center mt-4">
+							<div class="col-6 border-right"><div class="h4 font-weight-bold mb-0">Data</div><span class="small text-gray">warehouse</span></div>
+							<div class="col-6"><div class="h4 font-weight-bold mb-0">Chargement</div><span class="small text-gray">via Talend</span></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- CONTACT -->
+	<section class="ftco-section contact-section ftco-no-pb bg-light" id="contact-section">
+		<div class="container">
+			<div class="row justify-content-center mb-5 pb-3">
+				<div class="col-md-7 heading-section text-center ftco-animate">
+					<span class="subheading">On se parle ?</span>
+					<h2 class="mb-4">Disponible immédiatement pour un CDI</h2>
+					<p>Vous recrutez un Data Analyst ou un Data Engineer, ou souhaitez échanger sur un projet data ? Je serai ravie d'en discuter avec vous. Laissez-moi un message ci-dessous ou consultez mon CV.</p>
+				</div>
+			</div>
+			<div class="row block-9">
+				<div class="col-md-8">
+					<!-- Formulaire relié à Formspree -->
+					<form action="https://formspree.io/f/xgaaewqv" method="POST" class="bg-white p-4 p-md-5 contact-form">
+						<div id="form-success" class="alert alert-success form-info">Message envoyé. Je vous réponds rapidement.</div>
+						<div id="form-error" class="alert alert-warning form-info">Le message n'a pas pu être envoyé. Écrivez-moi directement à jinaduamdalat@gmail.com.</div>
+						<div class="row">
+							<div class="col-md-6"><div class="form-group"><input type="text" name="name" class="form-control" placeholder="Votre nom" required></div></div>
+							<div class="col-md-6"><div class="form-group"><input type="email" name="email" class="form-control" placeholder="Votre e-mail" required></div></div>
+							<div class="col-md-12"><div class="form-group"><input type="text" name="subject" class="form-control" placeholder="Objet" required></div></div>
+							<div class="col-md-12"><div class="form-group"><textarea name="message" cols="30" rows="7" class="form-control" placeholder="Message" required></textarea></div></div>
+							<div class="col-md-12"><div class="form-group"><button type="submit" class="btn btn-primary py-3 px-5">Envoyer</button></div></div>
+						</div>
+					</form>
+				</div>
+				<div class="col-md-4 d-flex pl-md-5">
+					<div class="row">
+						<div class="dbox w-100 d-flex">
+							<div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-map-marker"></span></div>
+							<div class="text"><p><span>Localisation :</span> Rennes · Toute la France</p></div>
+						</div>
+						<div class="dbox w-100 d-flex">
+							<div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-paper-plane"></span></div>
+							<div class="text"><p><span>Email :</span> <a href="mailto:jinaduamdalat@gmail.com">jinaduamdalat@gmail.com</a></p></div>
+						</div>
+						<div class="dbox w-100 d-flex">
+							<div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-github"></span></div>
+							<div class="text"><p><span>GitHub :</span> <a href="https://github.com/adeola1510" target="_blank" rel="noopener">github.com/adeola1510</a></p></div>
+						</div>
+						<div class="dbox w-100 d-flex">
+							<div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-linkedin"></span></div>
+							<div class="text"><p><span>LinkedIn :</span> <a href="https://www.linkedin.com/in/amdalat-adeola-jinadu-382132227/" target="_blank" rel="noopener">linkedin.com/in/amdalat-adeola-jinadu</a></p></div>
+						</div>
+						<div class="dbox w-100 d-flex">
+							<div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-download"></span></div>
+							<div class="text"><p><span>CV :</span> <a href="CV_Amdalat_JINADU_Data_Analyst.pdf" class="btn btn-primary btn-sm" target="_blank" rel="noopener">Télécharger mon CV</a></p></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer class="ftco-footer ftco-section">
+		<div class="container">
+			<div class="row mb-5">
+				<div class="col-md">
+					<div class="ftco-footer-widget mb-4">
+						<h2 class="ftco-heading-2">Amdalat Jinadu · Data Analyst</h2>
+						<p>Disponible immédiatement en CDI, partout en France.</p>
+						<p><a href="#contact-section" class="btn btn-primary">Me contacter</a></p>
+					</div>
+				</div>
+				<div class="col-md">
+					<div class="ftco-footer-widget mb-4 ml-md-4">
+						<h2 class="ftco-heading-2">Liens</h2>
+						<ul class="list-unstyled">
+							<li><a href="#home-section"><span class="fa fa-chevron-right mr-2"></span>Accueil</a></li>
+							<li><a href="#projects-section"><span class="fa fa-chevron-right mr-2"></span>Réalisations</a></li>
+							<li><a href="#about-section"><span class="fa fa-chevron-right mr-2"></span>Mon profil</a></li>
+							<li><a href="#experiences-section"><span class="fa fa-chevron-right mr-2"></span>Expériences</a></li>
+							<li><a href="#skills-section"><span class="fa fa-chevron-right mr-2"></span>Compétences</a></li>
+							<li><a href="#contact-section"><span class="fa fa-chevron-right mr-2"></span>Me contacter</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md">
+					<div class="ftco-footer-widget mb-4">
+						<h2 class="ftco-heading-2">Domaines</h2>
+						<ul class="list-unstyled">
+							<li><span class="fa fa-chevron-right mr-2"></span>Analyse de données</li>
+							<li><span class="fa fa-chevron-right mr-2"></span>Business Intelligence</li>
+							<li><span class="fa fa-chevron-right mr-2"></span>Qualité des données</li>
+							<li><span class="fa fa-chevron-right mr-2"></span>ETL &amp; Data Engineering</li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md">
+					<div class="ftco-footer-widget mb-4">
+						<h2 class="ftco-heading-2">Une question ?</h2>
+						<div class="block-23 mb-3">
+							<ul>
+								<li><span class="icon fa fa-map-marker"></span><span class="text">Rennes, France</span></li>
+								<li><a href="mailto:jinaduamdalat@gmail.com"><span class="icon fa fa-paper-plane pr-4"></span><span class="text">jinaduamdalat@gmail.com</span></a></li>
+							</ul>
+						</div>
+						<ul class="ftco-footer-social list-unstyled mt-2">
+							<li class="ftco-animate"><a href="https://www.linkedin.com/in/amdalat-adeola-jinadu-382132227/" target="_blank" rel="noopener" aria-label="LinkedIn"><span class="fa fa-linkedin"></span></a></li>
+							<li class="ftco-animate"><a href="https://github.com/adeola1510" target="_blank" rel="noopener" aria-label="GitHub"><span class="fa fa-github"></span></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 text-center">
+					<p>Copyright &copy;<script>document.write(new Date().getFullYear());</script> Amdalat Jinadu · Template par <a href="https://colorlib.com" target="_blank" rel="noopener">Colorlib</a></p>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<!-- loader -->
+	<div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#1f4e79"/></svg></div>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery-migrate-3.0.1.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.easing.1.3.js"></script>
+	<script src="js/jquery.waypoints.min.js"></script>
+	<script src="js/jquery.stellar.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/jquery.animateNumber.min.js"></script>
+	<script src="js/scrollax.min.js"></script>
+	<script src="js/main.js"></script>
+
+	<script>
+		const form = document.querySelector('.contact-form');
+		form.addEventListener('submit', async function (e) {
+			e.preventDefault();
+			const ok = document.getElementById('form-success');
+			const ko = document.getElementById('form-error');
+			ok.style.display = 'none'; ko.style.display = 'none';
+			try {
+				const response = await fetch(form.action, { method: form.method, body: new FormData(form), headers: { 'Accept': 'application/json' } });
+				if (response.ok) { form.reset(); ok.style.display = 'block'; } else { ko.style.display = 'block'; }
+			} catch (err) { ko.style.display = 'block'; }
+		});
+	</script>
+
+	<script type="application/ld+json">
+	{ "@context": "https://schema.org", "@type": "Person", "name": "Amdalat Jinadu", "url": "https://adeola1510.github.io", "jobTitle": "Data Analyst", "sameAs": ["https://www.linkedin.com/in/amdalat-adeola-jinadu-382132227/"] }
+	</script>
+</body>
+</html>
